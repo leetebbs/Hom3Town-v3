@@ -1,7 +1,7 @@
 # Hom3Town
 ### Your home in the metaverse
 
-A Next.js 13+ application featuring a sprite-based character creator system with real-time preview and persistent storage.
+A Next.js 13+ application featuring a character creation sim game with an account abstracted login. It is a homebase for users to customize their avatars, homes, and explore other worlds.
 
 ![image](https://github.com/user-attachments/assets/411ca16d-a10f-4871-9f7b-92147f39c2ed)
 
