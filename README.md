@@ -9,7 +9,7 @@ A Next.js 13+ application featuring a sprite-based character creator system with
 git clone https://github.com/yourusername/hom3town-v3.git
 
 # Navigate to the project directory
-cd hom3town-v3
+cd hom3town-v3/account-kit-app
 
 # Install dependencies
 npm install
@@ -24,7 +24,7 @@ Visit `http://localhost:3000` to view the application.
 
 - Node.js 18+
 - NPM or Yarn
-- Alchemy Account Kit (for authentication)
+- [Alchemy Account Kit](https://accountkit.alchemy.com/react/quickstart#existing-project) (for authentication)
 
 ## Project Structure
 
