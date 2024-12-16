@@ -3,7 +3,7 @@
 
 A Next.js 13+ application featuring a sprite-based character creator system with real-time preview and persistent storage.
 
-![image](https://github.com/user-attachments/assets/0f7b1fe6-ede2-4fef-9ef5-b9f1a52dd891)
+![image](https://github.com/user-attachments/assets/c91169eb-2dc8-4f33-b9b9-09ba425e91e2)
 
 
 ## About the Project
