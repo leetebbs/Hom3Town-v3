@@ -160,6 +160,7 @@ interface SelectedFrames {
 5. Open a Pull Request
 
 ## Future Features
+- Deploy off localhost using Vercel or Heroku 
 - Username ENS account link
 - Auto avatar mint on Shape Main Network during account creation
 - Dynamic NFT metadata updates on each confirmation
@@ -170,6 +171,7 @@ interface SelectedFrames {
 - Import other world NFTs to view in your inventory and equip to your avatar
 - Purchase and furnish your home with additional items from other worlds and the marketplace
 - Mini-games to earn currency for avatar and home upgrades
+- Add an easy-contribution feature for others to build and link their worlds and shops
 - And more??
 
 ## License
@@ -180,5 +182,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - [Alchemy](https://www.alchemy.com/) for account kit authentication
 - [Shape](https://shape.network/) for world-building gateway and gas-back mechanism for future features
+- [Cursor](https://www.cursor.com/) IDE with AI Dev Chat feature (Honestly a lifesaver).
 - [Next.js](https://nextjs.org/) team for the amazing framework
 - Contributors and maintainers
