@@ -5,6 +5,8 @@ A Next.js 13+ application featuring a sprite-based character creator system with
 
 ![image](https://github.com/user-attachments/assets/c91169eb-2dc8-4f33-b9b9-09ba425e91e2)
 
+![image](https://github.com/user-attachments/assets/c5bb9c08-0249-43fc-8295-1e517a47822f)
+
 
 ## About the Project
 The project was created for the [2024 ShapeCraft Hackathon.](https://shape.network/shapecraft)
