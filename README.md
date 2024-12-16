@@ -11,7 +11,6 @@ A Next.js 13+ application featuring a sprite-based character creator system with
 
 ## About the Project
 The project was created for the [2024 ShapeCraft Hackathon.](https://shape.network/shapecraft)
-Category: New Worlds
 
 The goal of this project was to implement the following features if time and talent allowed: 
 - Once the user logs in, their default NFT is automatically minted on the Shape Mainnet
