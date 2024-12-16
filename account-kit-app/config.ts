@@ -12,12 +12,12 @@ const uiConfig: AlchemyAccountsUIConfig = {
     sections: [[{ type: "social", authProviderId: "google", mode: "popup" }]],
     addPasskeyOnSignup: false,
   },
-  supportUrl: "https://github.com/TalonDragon000/Hom3Town/discussions",
+  supportUrl: "https://github.com/TalonDragon000/Hom3Town-v3/discussions",
 };
 
 export const config = createConfig(
   {
-    transport: alchemy({ apiKey: "v94EtomtmdWmWfenej5ISXtNiGK_6MIy" }), // TODO: add your Alchemy API key - https://dashboard.alchemy.com/accounts
+    transport: alchemy({ apiKey: "ALCHEMY_API_KEY" }), // TODO: add your Alchemy API key - https://dashboard.alchemy.com/accounts
     chain: shape,
     ssr: true, // more about ssr: https://accountkit.alchemy.com/react/ssr
     storage: cookieStorage, // more about persisting state with cookies: https://accountkit.alchemy.com/react/ssr#persisting-the-account-state
