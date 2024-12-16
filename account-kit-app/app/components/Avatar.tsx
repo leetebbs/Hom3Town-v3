@@ -19,7 +19,12 @@ const sizeMap = {
         sprite: {
             width: 64,
             height: 128,
-            scale: 1
+            scale: 0.5
+        },
+        defaultImage: {
+            width: 64,
+            height: 128,
+            scale: 1 // Scale from 256x512 to 32x64
         }
     },
     normal: {
@@ -28,6 +33,11 @@ const sizeMap = {
             width: 64,
             height: 128,
             scale: 1
+        },
+        defaultImage: {
+            width: 64,
+            height: 128,
+            scale: 1 // Scale from 256x512 to 64x128
         }
     }
 };
