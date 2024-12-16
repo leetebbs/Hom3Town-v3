@@ -19,7 +19,7 @@ const sizeMap = {
         sprite: {
             width: 64,
             height: 128,
-            scale: 0.5
+            scale: 1
         }
     },
     normal: {
