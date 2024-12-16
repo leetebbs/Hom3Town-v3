@@ -65,9 +65,11 @@ export default function Dashboard() {
             </div>
             <div className="p-6 bg-gray-100 border border-gray-300 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-2">Coming Soon</h3>
-              <div className="flex justify-center gap-4 mt-4"><button className="btn-disabled">Purchase a House</button></div>
               <div className="flex justify-center gap-4 mt-4"><button className="btn-disabled">View your Inventory</button></div>
+              <div className="flex justify-center gap-4 mt-4"><button className="btn-disabled">Purchase a House</button></div>
               <div className="flex justify-center gap-4 mt-4"><button className="btn-disabled">Visit the Marketplace</button></div>
+              <div className="flex justify-center gap-4 mt-4"><button className="btn-disabled">Explore Worlds</button></div>
+            </div>
             </div>
         </div>
         <footer className="fixed bottom-0 left-0 right-0">
