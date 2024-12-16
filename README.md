@@ -3,6 +3,9 @@
 
 A Next.js 13+ application featuring a sprite-based character creator system with real-time preview and persistent storage.
 
+![image](https://github.com/user-attachments/assets/0f7b1fe6-ede2-4fef-9ef5-b9f1a52dd891)
+
+
 ## About the Project
 The project was created for the [2024 ShapeCraft Hackathon.](https://shape.network/shapecraft)
 Category: New Worlds
