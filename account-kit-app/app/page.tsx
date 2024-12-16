@@ -1,7 +1,6 @@
 import "./globals.css";
 import Login from "./login/page";
 import PlayNowButton from './components/PlayNowButton';
-import VisitHomeBtn from './components/VisitHomeBtn';
 import { Avatar } from "./components/Avatar";
 
 export default function Home() {
