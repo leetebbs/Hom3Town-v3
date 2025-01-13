@@ -1,13 +1,20 @@
 # Hom3Town
-### Your home in the metaverse
+## Your home in the metaverse
 
-A Next.js 13+ application featuring a character creation sim game with an account abstracted login. It is a homebase for users to customize their avatars, homes, and explore other worlds.
+A Next.js 13+ application featuring a character creation sim game with an account abstracted login. It is a homebase for users to customize their avatars, homes, and explore other worlds. 
+
+## 📹 [VIEW THE DEMO VIDEO!](https://www.alchemy.com/university/projects/hom3town) 📹
 
 ![image](https://github.com/user-attachments/assets/411ca16d-a10f-4871-9f7b-92147f39c2ed)
 
 ![image](https://github.com/user-attachments/assets/c5bb9c08-0249-43fc-8295-1e517a47822f)
 
 ![image](https://github.com/user-attachments/assets/c91169eb-2dc8-4f33-b9b9-09ba425e91e2)
+
+## 🏆Shapecraft Hackathon Storyweaving Category Winner!🏆
+![image](https://github.com/user-attachments/assets/ecd51cc9-02d7-48ce-bc2e-54c9446d18c2)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I won $2,500 in the Storyweaving category!! I&#39;m so glad the judges recognized the vision and appreciated the art of my project.<br>It wasn&#39;t easy going up against teams of experienced developers, so I appreciate a category that allowed artists to play to our strengths. 🤩🥰🥳❤️‍🔥💪👩‍🎨 </p>&mdash; TalonDragon000 💜 (@talondragon000) <a href="https://twitter.com/talondragon000/status/1877435147361882360?ref_src=twsrc%5Etfw">January 9, 2025</a></blockquote>
 
 ## About the Project
 The project was created for the [2024 ShapeCraft Hackathon.](https://shape.network/shapecraft)
