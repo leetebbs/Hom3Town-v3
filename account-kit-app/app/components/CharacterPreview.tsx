@@ -1,9 +1,10 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { Category, LAYER_ORDER, isMultiSelectCategory } from '../utils/characterData';
 import { getBackgroundStyle } from '../utils/spriteUtils';
+import html2canvas from 'html2canvas';
 
 interface CharacterPreviewProps {
     onClear: () => void;
@@ -22,6 +23,8 @@ const CharacterPreview: React.FC<CharacterPreviewProps> = ({
     spriteSheetPath,
     showError
 }) => {
+    const previewRef = useRef<HTMLDivElement>(null);
+
     // Debug log for selectedFrames
     useEffect(() => {
         console.log('Selected Frames:', selectedFrames);
@@ -79,8 +82,22 @@ const CharacterPreview: React.FC<CharacterPreviewProps> = ({
         }
     };
 
+    const exportCharacter = () => {
+        if (previewRef.current) {
+            const characterElement = previewRef.current.querySelector('.preview-character');
+            if (characterElement) {
+                html2canvas(characterElement).then(canvas => {
+                    const link = document.createElement('a');
+                    link.href = canvas.toDataURL('image/png');
+                    link.download = 'character.png';
+                    link.click();
+                });
+            }
+        }
+    };
+
     return (
-        <div className="preview-container">
+        <div className="preview-container" ref={previewRef}>
             <div className="text-center text-2xl mb-4"><h3>Preview Character</h3></div>
             <div className="preview-character flex justify-center items-center">
                 {!hasAnySelection ? (
@@ -103,6 +120,7 @@ const CharacterPreview: React.FC<CharacterPreviewProps> = ({
             <div className="text-center mt-4">
                 <button className="action-btn" onClick={onClear}>CLEAR</button>
                 <button className="action-btn" onClick={onConfirm}>CONFIRM</button>
+                <button className="action-btn" onClick={exportCharacter}>EXPORT</button>
                 <button className="action-btn" onClick={() => window.location.href = '/dashboard'}>RETURN HOME</button>
             </div>
             <div className="error-message" style={{ display: showError ? 'block' : 'none' }}>
