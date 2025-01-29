@@ -142,7 +142,7 @@ const CharacterPreview: React.FC<CharacterPreviewProps> = ({
           // Initialize Pinata with proper JWT
           const pinata = new PinataSDK({
             pinataJwt: pinataJWT,
-            pinataGateway: "sapphire-representative-grouse-130.mypinata.cloud",
+            pinataGateway: process.env.NEXT_PUBLIC_PINATA_GATEWAY,
           });
 
           // Convert canvas to blob
